@@ -1,2 +1,3 @@
-# Notes
-Notes from learning CV DL ML 3D SLAM
+# List of all resources
+
+* [Albumentation](https://github.com/mertz1999/Notes/blob/main/augmentation.md)
