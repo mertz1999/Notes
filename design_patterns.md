@@ -31,3 +31,10 @@ Is one of the **behavioral** pattern in software engineering.
 In this pattern we have 2 important classes:
 * **Publisher** : This class will send messages to others.
 * **Observer** : Linsten to publisher class for recieving messages.
+
+
+## Mediator
+Another **behavioral** pattern. This pattern is used to make relationship between different classes. You know in SOLID you need to break the relation between classes.
+
+* ** Mediator ** : for making relation.
+* **Other objects** : Other objects which need to have relation together but they can not do this without **Mediator**.
