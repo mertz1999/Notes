@@ -38,3 +38,16 @@ Another **behavioral** pattern. This pattern is used to make relationship betwee
 
 * ** Mediator ** : for making relation.
 * **Other objects** : Other objects which need to have relation together but they can not do this without **Mediator**.
+
+
+## State
+* **behavioral** pattern
+* Like **finite states** in FPGA designing.
+* 1. **state interface class** : This class is an abstract layer for each state. 
+  2. **state classes** : For each new state we implement new state class based in state interface.
+  3. **context class** : Defining behaviors methods.
+ 
+## Strategy
+* **behavioral** pattern
+* Can be use for situation which we need to group some functions
+
