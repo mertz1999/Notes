@@ -51,3 +51,21 @@ Another **behavioral** pattern. This pattern is used to make relationship betwee
 * **behavioral** pattern
 * Can be use for situation which we need to group some functions
 
+
+## Iterator
+* For problems like music playlist for play one-by-one and also going back or forward
+* 1. **Iterator Interface** : All Iteration workflow
+  2. **PostIterator Class** : Implement all next or other functions
+  3. **IterableCollection Interface** and **PostCollection Class**: for getting a list of all content and pass them through PostIterator class
+
+
+## Abstrct Factory
+* For example: make an application which can be loaded automatically for each os
+* 1. **Abstract Products** : main abstract class for hole product features
+  2. **Concrete Products** : for each products (different os) implement products features
+  3. **Abstract Factory** : a factory abstract class for creation of classes
+  4. **Concrete Factory** : for each product use this for build a product
+ 
+## Visotor
+* This pattern include a class which can automatically capture some information like number of views per post
+
